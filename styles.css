@@ -1,1 +1,103 @@
-/*  your css code here. If applicable */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: white;
+}
+
+body h1 {
+  text-align: center;
+  color: black;
+  font-size: 28px;
+  color: blue;
+}
+
+#book-details {
+  padding: 10px;
+  /* border: 1px solid black; */
+}
+
+.form-group {
+  padding: 10px 0;
+}
+.form-group form {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+.form-group input {
+  width: 100%;
+  height: 30px;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.308);
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 10px 30px;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  border-radius: 5px;
+}
+
+.btn-submit {
+  background-color: blue;
+  color: white;
+}
+
+.btn:hover {
+  transition: scale 100ms ease-out;
+  scale: 0.9;
+}
+
+.book-data {
+  padding: 10px;
+  /* border: 1px solid black; */
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr:first-child th {
+  border-bottom: 2px solid black;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+#book-list {
+  /* display:  flex; */
+  /* flex-wrap: wrap; */
+  /* flex-direction: column; */
+  gap: 5px;
+}
+
+#book-list tr {
+  width: 100%;
+}
+#book-list td {
+  padding: 8px;
+  background-color: rgba(135, 207, 235, 0.279);
+}
+
+.delete {
+  padding: 5px 8px;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  scale: 1;
+}
+
+.delete:hover {
+  transition: scale 100ms ease-out;
+  scale: 0.9;
+}
